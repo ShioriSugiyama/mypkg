@@ -23,8 +23,8 @@
 - コンパイルする
 
 `$ cd ..` 
-`$ catkin_make`
-`$ source ~/.bashrc`
+`$ catkin_make` 
+`$ source ~/.bashrc` 
 
 - ROSを起動する 
 
@@ -39,6 +39,15 @@
 - 各ファイルの実行許可を設定する 
 
 `$ chmod +x count.py` 
-`$ chmod +x even.py`_*1
-`$ chmod +x odd.py`_*1
-*1 
+`$ chmod +x even.py` 
+`$ chmod +x odd.py` 
+
+- count.pyを実行する 
+`$ rosrun mypkg count.py`
+
+### ターミナル３
+- even.py、またはodd.pyを実行する 
+
+#### 偶数を表示する場合 
+`$ rosrun mypkg even.py`
+
