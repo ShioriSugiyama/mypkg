@@ -38,12 +38,12 @@
 
 - 各ファイルの実行許可を設定する 
 
-`$ chmod +x count.py` 　
-`$ chmod +x even.py` 　
-`$ chmod +x odd.py` 　
+`$ chmod +x count.py`  
+`$ chmod +x even.py`  
+`$ chmod +x odd.py`  
 
-- count.pyを実行する 
-`$ rosrun mypkg count.py`　 
+- count.pyを実行する  
+`$ rosrun mypkg count.py`  
 
 ### ターミナル３
 - even.py、またはodd.pyを実行する   
