@@ -42,7 +42,8 @@
 `$ chmod +x even.py`  
 `$ chmod +x odd.py`  
 
-- count.pyを実行する  
+- count.pyを実行する
+
 `$ rosrun mypkg count.py`  
 
 ### ターミナル３
