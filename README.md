@@ -38,16 +38,36 @@
 
 - 各ファイルの実行許可を設定する 
 
-`$ chmod +x count.py` 
-`$ chmod +x even.py` 
-`$ chmod +x odd.py` 
+`$ chmod +x count.py` 　
+`$ chmod +x even.py` 　
+`$ chmod +x odd.py` 　
 
 - count.pyを実行する 
-`$ rosrun mypkg count.py`
+`$ rosrun mypkg count.py`　
 
 ### ターミナル３
 - even.py、またはodd.pyを実行する 
 
+なお、自然数を表示する場合はこの工程は省く。
+
 #### 偶数を表示する場合 
 `$ rosrun mypkg even.py`
+
+#### 奇数を表示する場合
+`$ rosrun mypkg odd.py`
+
+### ターミナル４ 
+- 数字を表示する 
+#### 自然数を表示する場合 
+`$ rostopic echo /count_up`
+
+#### 偶数を表示する場合 
+`$ rostopic echo /even`
+
+#### 奇数を表示する場合 
+`$ rostopic echo /odd`
+
+
+## デモ動画
+
 
