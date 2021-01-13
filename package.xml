@@ -2,7 +2,7 @@
 <package format="2">
   <name>mypkg</name>
   <version>0.0.0</version>
-  <description>The robosys2020_kadai2 package</description>
+  <description>The mypkg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
